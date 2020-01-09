@@ -16,7 +16,4 @@ describe Player do
     expect { lucian.reduce_hp }.to change { lucian.hp }.by(-10)
   end
 
-  it "let's a player attack and reduces HP" do
-    expect { lucian.attack(meghan) }.to change { meghan.hp }.by(-10)
-  end
 end
